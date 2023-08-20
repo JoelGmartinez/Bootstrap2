@@ -1,0 +1,128 @@
+html, body{
+    list-style: none;
+    width: 100%;
+    overflow-x:hidden;
+}
+.navbar{
+    height: 70px;
+}
+ul .dropdown-item:hover, .nav-item:hover{
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+}
+.gle{
+    margin: 0 auto;
+    width:95%; 
+}
+
+.nav-item i{
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+}
+ul {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center; 
+}
+.god img{
+    margin: 10px;
+    width: 300px;
+    margin-left: 40%;
+}
+.god h5{
+    border-bottom: 2px solid black;
+    width: 195px;
+    color: black;
+}
+.banner{
+    margin-top: 60px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+.banner .img{
+    flex: 1 1 600px;
+}
+.banner .img img{
+    margin-top: 30px;
+    width: 100%;
+}
+.banner .content{
+    flex: 1 1 400px;
+    margin-top: 20px;
+}
+.banner .content h1{
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+    margin-left: 23px;
+    font-size: 55px;
+    text-shadow: -1px 1px 1px black;
+}
+.banner .content h1 span{
+    color: rgb(0, 102, 255);
+    text-shadow: 1px 1px 1px black;
+}
+#span2{
+    color: #ffc800;
+}
+.banner .content p{
+    margin-left: 23px;
+}
+.btn{
+    margin-left: 13px;
+}
+.btn button{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: rgb(0, 38, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #ffc800;
+    color: black;
+    border: none;
+}
+@media screen and (max-width:1200px){
+    .banner{
+        height: 90vh;
+    }
+}
+@media screen and (max-width:799px){
+    .banner{
+        height: 140vh;
+    }
+}
+@media screen and (max-width:550px){
+    .banner{
+        height: 110vh;
+    }
+}
+@media screen and (max-width:420px){
+   .banner .content h1{
+    font-size: 45px;
+   }
+}
+@media screen and (max-width:320px){
+   .banner .content h1{
+    font-size: 36px;
+   }
+}
+#other .card h3,p{
+    color: white;
+}
+footer i{
+    width: 30px;
+    font-size: 25px;
+}
